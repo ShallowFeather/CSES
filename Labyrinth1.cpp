@@ -21,7 +21,8 @@ void bfs(int x, int y) {
         for(int i = 0; i < 4; i++){
             int nx = fx + mx[i], ny = fy + my[i];
             if(ok(nx, ny)){
-                
+                qx.push(nx); qy.push(ny);
+                       
             }
         }
     }
